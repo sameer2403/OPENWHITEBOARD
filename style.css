@@ -21,9 +21,6 @@ body {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-img {
-  display: block;
-}
 .tools-container {
   display: flex;
   height: 5rem;
@@ -35,4 +32,55 @@ img {
   left: 25vw;
   padding: 0.6rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.tools-container > * {
+  display: block;
+  width: 4rem;
+}
+.pencil-tool-container {
+  height: 5rem;
+  width: 8rem;
+  position: absolute;
+  left: 25vw;
+  top: 7.2rem;
+  background-color: #f1f2f6;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.pencil-width-container {
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pencil-width-container input {
+  width: 80%;
+}
+
+.pencil-color-container {
+  height: calc(100% - 2rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pencil-color {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
 }
