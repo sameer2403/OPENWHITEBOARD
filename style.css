@@ -40,7 +40,7 @@ body {
 }
 .pencil-tool-container {
   height: 5rem;
-  width: 8rem;
+  width: 6rem;
   position: absolute;
   left: 25vw;
   top: 7.2rem;
@@ -68,8 +68,8 @@ body {
 }
 
 .pencil-color {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 1rem;
+  width: 1rem;
   border-radius: 50%;
 }
 
@@ -83,4 +83,22 @@ body {
 
 .blue {
   background-color: blue;
+}
+
+.eraser-tool-container {
+  height: 2rem;
+  width: 6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 7.2rem;
+  left: 32vw;
+  background-color: #f1f2f6;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.eraser-tool-container input {
+  width: 80%;
 }
