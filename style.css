@@ -45,6 +45,7 @@ body {
   left: 25vw;
   top: 7.2rem;
   background-color: #f1f2f6;
+  display: none;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
@@ -89,7 +90,7 @@ body {
   height: 2rem;
   width: 6rem;
 
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   position: absolute;
