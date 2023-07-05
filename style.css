@@ -123,8 +123,6 @@ body {
   position: absolute;
   top: 14rem;
   left: 10rem;
-  background-color: #cd7272;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 .header-container {
@@ -164,4 +162,10 @@ textarea {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   background-color: #eeeeee;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
 }
