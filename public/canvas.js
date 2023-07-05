@@ -102,7 +102,7 @@ redo.addEventListener("click", (e) => {
 });
 
 // undoredo action canvas
-function undoredoCanvas(trackObj) {
+function undoRedoCanvas(trackObj) {
   // re-initialize
   track = trackObj.trackValue;
   undoRedoTracker = trackObj.undoRedoTracker;
